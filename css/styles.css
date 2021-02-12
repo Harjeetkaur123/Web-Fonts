@@ -1,0 +1,40 @@
+@font-face {
+    font-family: 'playfair';
+    src: url('playfairdisplay-regular-webfont.woff2') format('woff2'),
+         url('playfairdisplay-regular-webfont.woff') format('woff');
+    font-display: swap;
+}
+
+html{
+	font-size: 62.5%;
+}
+
+/*mobile first css*/
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 1.6rem;
+}
+
+header{
+	width: 140rem;
+	margin: 0 auto;
+}
+
+h1{
+	line-height: 2.5;
+	text-align: center;
+	font-size: 3.6rem;
+	font-weight: 700;
+	font-family: 'Architects Daughter', cursive;
+	letter-spacing: .2rem;
+}
+
+p{
+	line-height: 1.5;
+	font-family: 'playfair';
+}
+
+footer p{
+	text-align: center;
+}
